@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expenses Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+    />
+  </head>
+  <body>
+    <main class="dashboard-container">
+      <nav class="sidebar-container">
+        <div class="info-container mt-14 ml-16">
+          <div class="relative">
+            <img
+              src="./images/samantha.png"
+              alt="avatar"
+              class="relative inline-block object-cover object-centerh-h-[110px] w-[110px] rounded-lg"
+            />
+            <span
+              class="absolute rounded-full py-1 px-1 text-xs font-medium content-[''] leading-none grid place-items-center top-[4%] right-[63%] translate-x-2/4 -translate-y-2/4 bg-red-500 text-white min-w-[28px] min-h-[28px]"
+            >
+              5
+            </span>
+          </div>
+          <h1 class="text-3xl font-semibold text-white mt-2">Samantha</h1>
+          <p class="text-xl font-medium text-white mt-1">samantha@email.com</p>
+        </div>
+        <div
+          class="navigation-title-container border-2 border-red-600 text-white ml-16 mt-28 text-2xl font-semibold space-y-8"
+        >
+          <h1>Dashboard</h1>
+          <h1>Expenses</h1>
+          <h1>Wallets</h1>
+          <h1>Summary</h1>
+          <h1>Accounts</h1>
+          <h1>Settings</h1>
+        </div>
+      </nav>
+      <aside
+        class="w-[710px] h-[855px] bg-[#FFFFFF] border-2 border-red-500 rounded-3xl my-5 mr-5"
+      >
+        <div class="flex justify-between">
+          <div class="w-[195px] h-[84px] border-2 border-green-500 mt-16 ml-24">
+            <h1 class="text-4xl font-semibold text-[#262A41]">Expenses</h1>
+            <p class="text-xl text-slate-400">01 - 25 March, 2020</p>
+          </div>
+          <div class="mt-16 mr-16 flex items-center border-2 border-red-500">
+            <div class="flex items-center -space-x-4">
+              <img
+                alt="user 3"
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1288&amp;q=80"
+                class="relative inline-block h-12 w-12 !rounded-full border-2 border-white object-cover object-center hover:z-10 focus:z-10"
+              />
+              <img
+                alt="user 4"
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1287&amp;q=80"
+                class="relative inline-block h-12 w-12 !rounded-full border-2 border-white object-cover object-center hover:z-10 focus:z-10"
+              />
+              <img
+                alt="user 5"
+                src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1760&amp;q=80"
+                class="relative inline-block h-12 w-12 !rounded-full border-2 border-white object-cover object-center hover:z-10 focus:z-10"
+              />
+            </div>
+            <img
+              class="relative inline-block h-12 w-12 !rounded-full border-2 border-white object-cover object-center hover:z-10 focus:z-10"
+              src="./images/icons/plus-icon.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </aside>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/script-name.js"></script>
+  </body>
+</html>
