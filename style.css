@@ -6,21 +6,3 @@
   margin: 0;
   padding: 0;
 }
-
-/* dashboard styles here  */
-.dashboard-container {
-  max-width: 1440px;
-  height: 900px;
-  border-radius: 30px;
-  background-color: #101010;
-  display: flex;
-}
-.sidebar-container {
-  width: 380px;
-}
-.dashboard-content-container {
-  width: 1060px;
-  height: 860px;
-  border: 2px solid red;
-  background-color: #ffffff;
-}
